@@ -17,6 +17,11 @@ group_total_summary <- suspension_coil %>%
             Variance=var(PSI),
             SD = sd(PSI),
             .groups = 'keep')
+lot_1 <- suspension_coil %>%  filter(Manufacturing_Lot == "Lot1")
+
+
+t.test(lot_1$PSI, mu=mean(suspension_coil$PSI)) #compare LOT # versus population mean
+                                                                  
 
 
 
