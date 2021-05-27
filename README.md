@@ -16,7 +16,7 @@ The following could be inferred based on the results of the linear regression to
 
 ### Summary Statistics on Suspension Coil
 ![alt tag](https://github.com/fmgribbon/MechaCar_Statistical_Analysis/blob/main/Total_Summary.PNG)
-The **entire population** of the Suspension Coil has a variance of 62.29 PSI. It **meets** the design specification of suspension coils(must not exceed 100 PSI). 
+- The **entire population** of the Suspension Coil has a variance of 62.29 PSI. It **meets** the design specification of suspension coils(must not exceed 100 PSI). 
 
 ## Suspension Coils Variance for each Manufacturing Lot
 ![alt tag](https://github.com/fmgribbon/MechaCar_Statistical_Analysis/blob/main/Lot_Summary.PNG)
@@ -26,17 +26,17 @@ The **entire population** of the Suspension Coil has a variance of 62.29 PSI. It
 
 ## T-tests on Suspension Coils
 ### Results
-####  For all Manufacturing Lots 
+####  For All Manufacturing Lots 
 
 ![alt tag](https://github.com/fmgribbon/MechaCar_Statistical_Analysis/blob/main/t-test_allLots.PNG)
-  - The p-value of 0.06 is greater than 0.05 means that we have enough evidence to accept the null hypothesis. There is no statistical difference between the PSI mean of all manufacturing lots and its presumed population mean = 1500 PSI.
+- The p-value of 0.06 is greater than 0.05 means that we have enough evidence to accept the null hypothesis. There is no statistical difference between the PSI mean of all manufacturing lots and its presumed population mean = 1500 PSI.
 
-##### For Manufacturing Lot1 & Lot2
+#### For Manufacturing Lot1 & Lot2
 ![alt tag](https://github.com/fmgribbon/MechaCar_Statistical_Analysis/blob/main/t-test_Lot1.PNG)
 ![alt tag](https://github.com/fmgribbon/MechaCar_Statistical_Analysis/blob/main/t-test_Lot2.PNG)
 - For both manufacturing lots 1 and 2, the p-values of 1 and 0.61 are greater than 0.05 means that we have enough evidence to accept the null hypothesis. There is no statistical difference between the PSI mean of both manufacturing lots and its presumed population mean equal to 1500 PSI. The mean of manufacturing Lot1 is equal to the presumed population mean of 1500.
 
-##### For Manufacturing Lot3
+#### For Manufacturing Lot3
 ![alt tag](https://github.com/fmgribbon/MechaCar_Statistical_Analysis/blob/main/t-test_Lot3.PNG)
 - The p-value of 0.04 is less than 0.05 means that we have enough evidence to reject the null hypothesis. There is a statistical difference between the PSI mean of manufacturing lot3 and its presumed population mean equal to 1500 PSI.
 
