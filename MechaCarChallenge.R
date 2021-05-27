@@ -19,6 +19,12 @@ group_total_summary <- suspension_coil %>%
             SD = sd(PSI),
             .groups = 'keep')
 
+
+
+# t-test to compare population mean vs all manufacturing lots
+t.test(suspension_coil$PSI, mu = 1500)
+
+
 # t-test to compare means of each Manufacturing Lots
 
 t.test(subset(suspension_coil,suspension_coil$Manufacturing_Lot == "Lot1",select = c(PSI)), mu=1500) #compare LOT1 versus population mean
